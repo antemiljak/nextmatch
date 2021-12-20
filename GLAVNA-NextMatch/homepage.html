@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Next Match</title>
+    <!--Dodat favicon-->
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://use.fontawesome.com/e1a0626ea2.js"></script>
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+
+            <a href="index.html"><img src="images/logo.png" alt="NextMatchLogo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ACCOUNT</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Next Match</h1>
+
+        <div class="newtext-box">
+
+            <!--Odi ubacit informacije o utakmici-->
+            <p>Football is a family of team sports that involve, to varying degrees,
+                kicking a ball to score a goal. Unqualified, the word football normally means
+                the form of football that is the most popular where the word is used. Sports
+               commonly called football include association football (known as soccer in North 
+               America and Oceania); gridiron football (specifically American football or Canadian football).
+               </p>
+
+               <i class="fa fa-times-circle" ></i>
+               <i class="fa fa-check-circle" ></i>
+
+        </div>
+
+
+      
+
+
+        
+
+    </section>
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>neki novi tekst.......</p>
+        
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+
+     
+    </section>
+
+
+<!--Javascript za menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        
+        }
+    </script>
+</body>
+
+</html>

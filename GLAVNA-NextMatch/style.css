@@ -61,6 +61,7 @@ nav img{
 
 }
 
+
 .text-box{
     width: 90%;
     color: aliceblue;
@@ -75,6 +76,31 @@ nav img{
     font-size: 65px;
 
 }
+.text-box p{
+    color: aliceblue;
+}
+
+input[type=password]{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid #2d9fd9;
+     width: 150px;
+     height: 20px;
+     padding-left: 10px;
+    }
+    /*stavit skupa u jednoj*/
+ input[type=text]{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid #2d9fd9;
+    width: 150px;
+    height: 20px;
+    padding-left: 10px;
+    }
+        
+
 
 .hero-btn{
     display: inline-block;
@@ -299,4 +325,80 @@ h3{
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
+}
+
+
+/* Homepage*/
+
+.sub-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/pozadina.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.sub-header h1{
+
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.newtext-box{
+    flex-basis: 31%;
+    background: aliceblue ;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.newtext-box .fa-times-circle{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 20px;
+    color:red;
+    font-size: 75px;
+    cursor: pointer;
+    
+}
+
+
+.newtext-box .fa-check-circle{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 20px;
+    color: green;
+    font-size: 75px;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 700px){
+    
+
+};
+
+/* singup stranica*/
+
+.header .formbox{
+    flex-basis: 31%;
+    background: aliceblue ;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    padding: 20px 30px;
+    box-sizing: border-box;
 }
