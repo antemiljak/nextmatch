@@ -126,6 +126,22 @@ nav .fa{
     display: none;
 }
 
+#login_button {
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 3px 4px;
+
+
+   }
+
+   #login_button:hover{
+    border: 1px solid #f21;
+    background: #f21;
+    transition: 1s;
+   }
+
 @media(max-width: 700px){
     .text-box h1{
         font-size: 45px;
@@ -277,6 +293,7 @@ h3{
 }
 
 
+
 /*triba jos za mobitel uredit slike*/
 /*zadnji section*/
 
@@ -292,8 +309,12 @@ h3{
 
 }
 
+.cta p{
+    color: aliceblue;
+}
+
 .cta h1{
-    color:#fff;
+    color:aliceblue;
     margin-bottom: 40px;
     padding: 0;
 }
@@ -383,22 +404,75 @@ h3{
     
 }
 
-@media (max-width: 700px){
-    
-
-};
 
 /* singup stranica*/
 
-.header .formbox{
+.signheader{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/pozadina.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.signheader h1{
+
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.formbox{
+    text-align: center;
     flex-basis: 31%;
     background: aliceblue ;
     border-radius: 10px;
     margin-top: 15px;
     margin-bottom: 5%;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 37%;
+    margin-right: 37%;
     
     padding: 20px 30px;
     box-sizing: border-box;
+}
+
+
+
+.accountheader{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/pozadina.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.accountheader h1{
+    text-align: center;
+    size: 45px;
+    color: aliceblue;
+}
+
+.accrow{
+    
+    margin-top: 3%;
+    margin-right: 13%;
+    margin-left: 13%;
+    display: flex;  
+    text-align: center;
+    
+    
+}
+
+.col{
+    
+    flex-basis: 31%;
+    border-radius: 10px;
+    background: aliceblue ;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;  
 }
